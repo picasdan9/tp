@@ -123,7 +123,6 @@ public class AddressBook implements ReadOnlyAddressBook {
      */
     public void addAppointment(Appointment a) {
         appointments.add(a);
-        System.out.println(getAppointmentList());
     }
 
     /**
